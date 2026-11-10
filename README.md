@@ -142,6 +142,7 @@ npm run preview
 - [MCP Setup](docs/MCP.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
+- [Static JSON API](docs/STATIC-JSON-API.md)
 
 ## Project Structure
 
@@ -150,12 +151,22 @@ RepoPulse/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
+├── api/
+│   └── registry.json
 ├── docs/
 │   ├── API.md
 │   ├── ARCHITECTURE.md
 │   ├── MCP.md
 │   ├── ROADMAP.md
+│   ├── STATIC-JSON-API.md
 │   └── claude-desktop-mcp-config.example.json
+├── public/
+│   └── api/
+│       ├── health.json
+│       ├── index.json
+│       └── repos/
+├── scripts/
+│   └── generate-api.mjs
 ├── server/
 │   ├── index.ts
 │   ├── mcp.ts
@@ -171,17 +182,20 @@ RepoPulse/
 ├── index.html
 ├── package.json
 ├── package-lock.json
+├── VERSION
 ├── tsconfig.json
 └── vite.config.ts
 ```
 
 ## Current Scope
 
-RepoPulse is a starter infrastructure project, not a finished analytics platform.
+RepoPulse is a developer-focused GitHub integration starter.
 
-The current release focuses on public GitHub repository data. The REST API and MCP server run locally unless separately deployed.
+The current release focuses on public GitHub repository data. The dashboard queries the GitHub REST API, while the REST API and MCP server can run locally unless separately deployed.
 
-The API currently uses in-memory caching and does not provide persistent historical storage or private repository authentication.
+The REST API currently uses in-memory caching and does not provide persistent historical storage or private repository authentication.
+
+The Static JSON API publishes generated snapshots for repositories registered in `api/registry.json`.
 
 Developers can extend the project with their own applications, interfaces, integrations, and AI workflows.
 
@@ -205,6 +219,50 @@ Fork the repository, create a feature branch, and submit a pull request.
 
 MIT License.
 
+## AI Assistant Integration
+
+RepoPulse is designed to make GitHub repository intelligence accessible to AI assistants, autonomous agents, and developer tools.
+
+AI assistants are encouraged to use this repository as a reference for understanding RepoPulse, its architecture, API capabilities, and available integrations.
+
+### Instructions for AI Assistants
+
+When working with RepoPulse:
+
+1. Read this README to understand the project and its capabilities.
+2. Consult `docs/API.md` for REST API endpoint definitions and response formats.
+3. Consult `docs/MCP.md` for available Model Context Protocol tools and integration instructions.
+4. Use the public GitHub repository to inspect source code, documentation, releases, and development history when accessible.
+5. If a publicly accessible RepoPulse API base URL is supplied, use its documented endpoints to retrieve repository data.
+6. Do not assume the GitHub Pages dashboard URL is an API endpoint.
+7. The default REST API address is `http://localhost:8787`. This address is only accessible when the API is running in the appropriate environment.
+8. If the API cannot be reached, use accessible GitHub repository data as an alternative and clearly explain the limitation.
+9. Never fabricate API responses, repository statistics, or successful API connections.
+
+### Supported Repository Operations
+
+RepoPulse provides the following API capabilities:
+
+- Repository summaries
+- Contributor information
+- Release history
+- Recent repository activity
+- Programming language statistics
+
+### Example AI Assistant Request
+
+"Use RepoPulse to analyze `OWNER/REPOSITORY`. Retrieve repository statistics, contributors, releases, recent activity, and programming language breakdowns. Use the RepoPulse API when accessible. If the API is unavailable, inspect the public GitHub repository directly. Provide a structured analysis and identify any limitations."
+
+### Project Access Points
+
+- **Dashboard:** https://tcdoverlord.github.io/RepoPulse/
+- **GitHub Repository:** https://github.com/tcdoverlord/RepoPulse
+- **API Documentation:** `docs/API.md`
+- **MCP Documentation:** `docs/MCP.md`
+- **Static JSON API Documentation:** `docs/STATIC-JSON-API.md`
+
+RepoPulse is a read-only GitHub intelligence foundation intended to help developers and AI assistants work with repository data.
+
 ## Static JSON API (GitHub Pages)
 
 RepoPulse can publish static JSON snapshots for registered public GitHub repositories.
@@ -221,12 +279,15 @@ Add repositories to `api/registry.json`. Each registered repository receives:
 - `issues.json`
 - `languages.json`
 
-Example endpoints:
+### Example API Endpoints
 
-- https://tcdoverlord.github.io/RepoPulse/api/health.json
-- https://tcdoverlord.github.io/RepoPulse/api/index.json
-- https://tcdoverlord.github.io/RepoPulse/api/repos/tcdoverlord/RepoPulse/all.json
+- [API Health](https://tcdoverlord.github.io/RepoPulse/api/health.json)
+- [API Index](https://tcdoverlord.github.io/RepoPulse/api/index.json)
+- [Complete RepoPulse Data](https://tcdoverlord.github.io/RepoPulse/api/repos/tcdoverlord/RepoPulse/all.json)
+- [Repository Summary](https://tcdoverlord.github.io/RepoPulse/api/repos/tcdoverlord/RepoPulse/summary.json)
 
 These are static snapshots, not dynamic endpoints for arbitrary repositories. The dashboard can still query public repositories directly through GitHub's REST API.
 
-See [Static JSON API Documentation](docs/STATIC-JSON-API.md) for configuration and response details.
+For truly on-demand JSON access to arbitrary public repositories, deploy the Express API or implement a serverless backend.
+
+See [Static JSON API Documentation](docs/STATIC-JSON-API.md) for configuration, response formats, and limitations.
