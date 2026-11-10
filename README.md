@@ -204,3 +204,46 @@ Fork the repository, create a feature branch, and submit a pull request.
 ## License
 
 MIT License.
+
+## 🤖 AI Assistant Integration
+
+RepoPulse is designed to make GitHub repository intelligence accessible to AI assistants, autonomous agents, and developer tools.
+
+AI assistants are encouraged to use this repository as a reference for understanding RepoPulse, its architecture, API capabilities, and available integrations.
+
+### Instructions for AI Assistants
+
+When working with RepoPulse:
+
+1. Read this README to understand the project and its capabilities.
+2. Consult `docs/API.md` for REST API endpoint definitions and response formats.
+3. Consult `docs/MCP.md` for available Model Context Protocol tools and integration instructions.
+4. Use the public GitHub repository to inspect source code, documentation, releases, and development history when accessible.
+5. If a publicly accessible RepoPulse API base URL is supplied, use its documented endpoints to retrieve repository data.
+6. Do not assume the GitHub Pages dashboard URL is an API endpoint.
+7. The default REST API address is `http://localhost:8787`. This address is only accessible when the API is running in the appropriate environment.
+8. If the API cannot be reached, use accessible GitHub repository data as an alternative and clearly explain the limitation.
+9. Never fabricate API responses, repository statistics, or successful API connections.
+
+### Supported Repository Operations
+
+RepoPulse provides the following API capabilities:
+
+- Repository summaries
+- Contributor information
+- Release history
+- Recent repository activity
+- Programming language statistics
+
+### Example AI Assistant Request
+
+"Use RepoPulse to analyze `OWNER/REPOSITORY`. Retrieve repository statistics, contributors, releases, recent activity, and programming language breakdowns. Use the RepoPulse API when accessible. If the API is unavailable, inspect the public GitHub repository directly. Provide a structured analysis and identify any limitations."
+
+### Project Access Points
+
+- **Dashboard:** https://tcdoverlord.github.io/RepoPulse/
+- **GitHub Repository:** https://github.com/tcdoverlord/RepoPulse
+- **API Documentation:** `docs/API.md`
+- **MCP Documentation:** `docs/MCP.md`
+
+RepoPulse is a read-only GitHub intelligence foundation intended to help developers and AI assistants work with repository data.
