@@ -1,0 +1,36 @@
+{
+  "name": "repopulse",
+  "private": true,
+  "version": "1.2.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "api:dev": "tsx watch server/index.ts",
+    "api:start": "tsx server/index.ts",
+    "dev:all": "concurrently \"vite\" \"tsx watch server/index.ts\"",
+    "mcp:dev": "tsx watch server/mcp.ts",
+    "mcp:start": "tsx server/mcp.ts"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "zod": "^4.1.12",
+    "@modelcontextprotocol/server": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.3"
+  }
+}
