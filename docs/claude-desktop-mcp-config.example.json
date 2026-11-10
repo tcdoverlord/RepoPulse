@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "repopulse": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Tony\\Downloads\\11-10-26-Builds\\RepoPulse\\node_modules\\tsx\\dist\\cli.mjs",
+        "C:\\Users\\Tony\\Downloads\\11-10-26-Builds\\RepoPulse\\server\\mcp.ts"
+      ],
+      "env": {
+        "REPOPULSE_API_URL": "http://localhost:8787"
+      }
+    }
+  }
+}
