@@ -1,0 +1,21 @@
+{
+  "service": "RepoPulse Static JSON API",
+  "generated_at": "2026-11-10T17:03:07.253Z",
+  "repository_count": 1,
+  "repositories": [
+    {
+      "repository": "tcdoverlord/RepoPulse",
+      "url": "https://github.com/tcdoverlord/RepoPulse",
+      "generated_at": "2026-11-10T17:03:07.253Z",
+      "endpoints": {
+        "all": "repos/tcdoverlord/RepoPulse/all.json",
+        "summary": "repos/tcdoverlord/RepoPulse/summary.json",
+        "contributors": "repos/tcdoverlord/RepoPulse/contributors.json",
+        "releases": "repos/tcdoverlord/RepoPulse/releases.json",
+        "activity": "repos/tcdoverlord/RepoPulse/activity.json",
+        "issues": "repos/tcdoverlord/RepoPulse/issues.json",
+        "languages": "repos/tcdoverlord/RepoPulse/languages.json"
+      }
+    }
+  ]
+}

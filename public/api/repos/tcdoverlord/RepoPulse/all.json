@@ -1,0 +1,341 @@
+{
+  "data": {
+    "repository": {
+      "id": 1452745350,
+      "name": "RepoPulse",
+      "full_name": "tcdoverlord/RepoPulse",
+      "description": "A developer-first GitHub integration starter providing a REST API, MCP server, and responsive dashboard for building GitHub-powered applications and AI tools.",
+      "url": "https://github.com/tcdoverlord/RepoPulse",
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "subscribers": 0,
+      "language": "TypeScript",
+      "default_branch": "main",
+      "created_at": "2026-11-10T14:06:46Z",
+      "updated_at": "2026-11-10T16:35:35Z",
+      "pushed_at": "2026-11-10T16:35:27Z",
+      "license": "NOASSERTION"
+    },
+    "contributors": [
+      {
+        "login": "tcdoverlord",
+        "id": 202811503,
+        "node_id": "U_kgDODBaobw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tcdoverlord",
+        "html_url": "https://github.com/tcdoverlord",
+        "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+        "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+        "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+        "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+        "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "contributions": 2
+      }
+    ],
+    "releases": [
+      {
+        "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/releases/440444762",
+        "assets_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/releases/440444762/assets",
+        "upload_url": "https://uploads.github.com/repos/tcdoverlord/RepoPulse/releases/440444762/assets{?name,label}",
+        "html_url": "https://github.com/tcdoverlord/RepoPulse/releases/tag/v1.2.1",
+        "id": 440444762,
+        "author": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "node_id": "RE_kwDOVpcihs4aQKda",
+        "tag_name": "v1.2.1",
+        "target_commitish": "main",
+        "name": "RepoPulse v1.2.1 - MCP Integration",
+        "draft": false,
+        "immutable": false,
+        "prerelease": false,
+        "created_at": "2026-11-10T14:06:40Z",
+        "updated_at": "2026-11-10T14:08:45Z",
+        "published_at": "2026-11-10T14:08:45Z",
+        "assets": [],
+        "tarball_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/tarball/v1.2.1",
+        "zipball_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/zipball/v1.2.1",
+        "body": "﻿# RepoPulse v1.2.1 — Initial Public Release\n\nThe first public release of RepoPulse brings together a GitHub repository dashboard, REST API, and Model Context Protocol (MCP) server.\n\n## Features\n- Responsive GitHub repository dashboard\n- Repository statistics, languages, contributors, releases, and activity\n- REST API with normalized responses\n- Five-minute in-memory API caching\n- Basic rate limiting and security headers\n- MCP server with six GitHub repository tools\n- MCP Inspector compatibility\n- Developer documentation and setup examples\n\n## Verification\n- Automated tests passing\n- Production TypeScript and Vite build successful\n- MCP tools successfully tested through MCP Inspector\n\n## Getting Started\nSee README.md and the docs directory for installation, API usage, and MCP configuration.\n\nLicense: MIT\r\n"
+      }
+    ],
+    "activity": [
+      {
+        "sha": "fa1f33c01a26a496ae471e575736ea19b994cc9e",
+        "node_id": "C_kwDOVpcihtoAKGZhMWYzM2MwMWEyNmE0OTZhZTQ3MWU1NzU3MzZlYTE5Yjk5NGNjOWU",
+        "commit": {
+          "author": {
+            "name": "TCD_Overlord",
+            "email": "202811503+tcdoverlord@users.noreply.github.com",
+            "date": "2026-11-10T16:35:26Z"
+          },
+          "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2026-11-10T16:35:26Z"
+          },
+          "message": "Enhance README with AI Assistant integration details\n\nAdded integration instructions and supported operations for AI assistants.",
+          "tree": {
+            "sha": "4ed9c0d33238e79860cab575e14810c010b22829",
+            "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/trees/4ed9c0d33238e79860cab575e14810c010b22829"
+          },
+          "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/commits/fa1f33c01a26a496ae471e575736ea19b994cc9e",
+          "comment_count": 0,
+          "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq80fPCRC1aQ7uu5UhlAAADP4QAKQIkrqHDXm/huf6uFH2zQUP\n7gdsx6KtsHNVNjdSsZD0ChKmASoO2QN8lyli2iIgF/YrVZxp+Ubfv72NVLI5fHvA\nbNBJJubINXod/+reFwp46zESdM4KV5+v7IqxtOUx1tGzphxROS0EazgPtS/OIY33\nC2Gtn8rHcjpyW7Xd3uTknNz+1ta4hyDBO6SkmGkPBWfPluR4pwKBVxOyR8D5MCMy\nPttmopzgLyBLbm5Ba6tjPXVbGSAYsXDMxQkYzzCtHaOBoW9vPH5XVnj2rnzAy47m\ntC6Q56wTQMQ075EiliulLKsUJdNjx1gb441HdcHZPAxmPYDRH1BHZtc4AQUcvYQZ\nAdW69jHyO0PqqQyrPNIjpt9ZL/lCvzn7q/kaiOEmW8VOicl/RaAQk4YD7A+kHK3W\nSm5N9WIjSSntGfDcNmHNnU0sAFtKoErXeA13GBLNl2Wll5JoEaYkHGO+QSTpUMld\nn6K818uOR87v0pGzgCL65dz1Whc4r26kHkJeaZOwx5cg/1YejZRsOBLO2rgbcKHr\nuHX/XXXpKeGkVJDXcDkxqyqnTOucC4V8KxO0/7hwWtmzE1mWJ5PSNbx0Q8GB2WxB\nMDGraaF+AxLpnLN5Zi/JX5AalkaY8sOxfve9ibGG1ewutSBXSVHkT8hwdrBujuIC\nTxrX2G72rt/P1tNqVYmC\n=3YwR\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 4ed9c0d33238e79860cab575e14810c010b22829\nparent 1f8043609bd3b3972b2f123b2acb5354c641d076\nauthor TCD_Overlord <202811503+tcdoverlord@users.noreply.github.com> 1794328526 -0500\ncommitter GitHub <noreply@github.com> 1794328526 -0500\n\nEnhance README with AI Assistant integration details\n\nAdded integration instructions and supported operations for AI assistants.",
+            "verified_at": "2026-11-10T16:35:28Z"
+          }
+        },
+        "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/fa1f33c01a26a496ae471e575736ea19b994cc9e",
+        "html_url": "https://github.com/tcdoverlord/RepoPulse/commit/fa1f33c01a26a496ae471e575736ea19b994cc9e",
+        "comments_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/fa1f33c01a26a496ae471e575736ea19b994cc9e/comments",
+        "author": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "web-flow",
+          "id": 19864447,
+          "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/web-flow",
+          "html_url": "https://github.com/web-flow",
+          "followers_url": "https://api.github.com/users/web-flow/followers",
+          "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+          "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+          "organizations_url": "https://api.github.com/users/web-flow/orgs",
+          "repos_url": "https://api.github.com/users/web-flow/repos",
+          "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/web-flow/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "1f8043609bd3b3972b2f123b2acb5354c641d076",
+            "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/1f8043609bd3b3972b2f123b2acb5354c641d076",
+            "html_url": "https://github.com/tcdoverlord/RepoPulse/commit/1f8043609bd3b3972b2f123b2acb5354c641d076"
+          }
+        ]
+      },
+      {
+        "sha": "1f8043609bd3b3972b2f123b2acb5354c641d076",
+        "node_id": "C_kwDOVpcihtoAKDFmODA0MzYwOWJkM2IzOTcyYjJmMTIzYjJhY2I1MzU0YzY0MWQwNzY",
+        "commit": {
+          "author": {
+            "name": "tcdoverlord",
+            "email": "202811503+tcdoverlord@users.noreply.github.com",
+            "date": "2026-11-10T14:19:05Z"
+          },
+          "committer": {
+            "name": "tcdoverlord",
+            "email": "202811503+tcdoverlord@users.noreply.github.com",
+            "date": "2026-11-10T14:24:58Z"
+          },
+          "message": "Improve README and document v1.2.1 architecture",
+          "tree": {
+            "sha": "86903592ebc3646e1265a1b29e615a39431c08b8",
+            "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/trees/86903592ebc3646e1265a1b29e615a39431c08b8"
+          },
+          "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/commits/1f8043609bd3b3972b2f123b2acb5354c641d076",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/1f8043609bd3b3972b2f123b2acb5354c641d076",
+        "html_url": "https://github.com/tcdoverlord/RepoPulse/commit/1f8043609bd3b3972b2f123b2acb5354c641d076",
+        "comments_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/1f8043609bd3b3972b2f123b2acb5354c641d076/comments",
+        "author": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": [
+          {
+            "sha": "b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+            "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+            "html_url": "https://github.com/tcdoverlord/RepoPulse/commit/b6969b0480a08b63ff40eeafaeae9f0704bb9bee"
+          }
+        ]
+      },
+      {
+        "sha": "b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+        "node_id": "C_kwDOVpcihtoAKGI2OTY5YjA0ODBhMDhiNjNmZjQwZWVhZmFlYWU5ZjA3MDRiYjliZWU",
+        "commit": {
+          "author": {
+            "name": "tcdoverlord",
+            "email": "202811503+tcdoverlord@users.noreply.github.com",
+            "date": "2026-11-10T14:06:40Z"
+          },
+          "committer": {
+            "name": "tcdoverlord",
+            "email": "202811503+tcdoverlord@users.noreply.github.com",
+            "date": "2026-11-10T14:24:53Z"
+          },
+          "message": "RepoPulse v1.2.1 - Initial release",
+          "tree": {
+            "sha": "0acef0ade121264a05f4b9ebad3c0c7dc310ed7a",
+            "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/trees/0acef0ade121264a05f4b9ebad3c0c7dc310ed7a"
+          },
+          "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/git/commits/b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+          "comment_count": 0,
+          "verification": {
+            "verified": false,
+            "reason": "unsigned",
+            "signature": null,
+            "payload": null,
+            "verified_at": null
+          }
+        },
+        "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+        "html_url": "https://github.com/tcdoverlord/RepoPulse/commit/b6969b0480a08b63ff40eeafaeae9f0704bb9bee",
+        "comments_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/commits/b6969b0480a08b63ff40eeafaeae9f0704bb9bee/comments",
+        "author": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "committer": {
+          "login": "tcdoverlord",
+          "id": 202811503,
+          "node_id": "U_kgDODBaobw",
+          "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/tcdoverlord",
+          "html_url": "https://github.com/tcdoverlord",
+          "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+          "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+          "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+          "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+          "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+          "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "parents": []
+      }
+    ],
+    "issues": [],
+    "languages": {
+      "TypeScript": 29474,
+      "HTML": 885
+    }
+  },
+  "meta": {
+    "source": "GitHub REST API",
+    "generated_at": "2026-11-10T17:03:07.253Z",
+    "repository": "tcdoverlord/RepoPulse"
+  }
+}

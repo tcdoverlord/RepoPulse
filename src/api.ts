@@ -3,7 +3,7 @@ import type { Commit, Contributor, Issue, Release, Repo } from './types';
 const API = 'https://api.github.com';
 
 export class GitHubApiError extends Error {
-  status?: number;
+  public status?: number;
 
   constructor(message: string, status?: number) {
     super(message);

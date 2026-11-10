@@ -204,3 +204,29 @@ Fork the repository, create a feature branch, and submit a pull request.
 ## License
 
 MIT License.
+
+## Static JSON API (GitHub Pages)
+
+RepoPulse can publish static JSON snapshots for registered public GitHub repositories.
+
+GitHub Actions generates the snapshots before deployment. The workflow runs on pushes to `main`, daily, and when manually triggered.
+
+Add repositories to `api/registry.json`. Each registered repository receives:
+
+- `all.json`
+- `summary.json`
+- `contributors.json`
+- `releases.json`
+- `activity.json`
+- `issues.json`
+- `languages.json`
+
+Example endpoints:
+
+- https://tcdoverlord.github.io/RepoPulse/api/health.json
+- https://tcdoverlord.github.io/RepoPulse/api/index.json
+- https://tcdoverlord.github.io/RepoPulse/api/repos/tcdoverlord/RepoPulse/all.json
+
+These are static snapshots, not dynamic endpoints for arbitrary repositories. The dashboard can still query public repositories directly through GitHub's REST API.
+
+See [Static JSON API Documentation](docs/STATIC-JSON-API.md) for configuration and response details.

@@ -28,3 +28,10 @@ RepoPulse is a frontend-only Vite + TypeScript application. It calls the public 
 - `server/index.ts`: read-only Express API service.
 - API endpoints call the GitHub REST API server-side, cache responses in memory, and return consistent JSON envelopes.
 - The API currently exposes public repository summary, contributors, releases, recent activity, and languages.
+
+
+## Static JSON publishing
+- `api/registry.json` lists repositories for static snapshot publication.
+- `scripts/generate-api.mjs` fetches public GitHub REST API resources and writes JSON under `public/api/`.
+- `.github/workflows/deploy.yml` generates the JSON before the Vite build and deploys the combined `dist` output to GitHub Pages. It runs on pushes, daily, and manual dispatch.
+- Static endpoints are snapshots for registered repositories; they do not make GitHub Pages a dynamic API server.

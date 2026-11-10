@@ -1,3 +1,10 @@
+## 1.3.0 - GitHub Pages Static JSON API
+
+- Added a repository registry and GitHub Actions JSON snapshot generator.
+- Added static endpoints for health, index, summary, contributors, releases, activity, issues, languages, and combined repository data.
+- Updated Pages deployment to generate JSON on pushes, daily, and manual dispatch.
+- Documented registry setup, endpoint paths, refresh behavior, and static-hosting limitations.
+
 ## 1.2.1 - MCP startup fix
 
 - Fixed MCP stdio startup handling: `serveStdio()` returns a server handle, not a Promise.

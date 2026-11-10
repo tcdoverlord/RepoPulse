@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "url": "https://api.github.com/repos/tcdoverlord/RepoPulse/releases/440444762",
+      "assets_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/releases/440444762/assets",
+      "upload_url": "https://uploads.github.com/repos/tcdoverlord/RepoPulse/releases/440444762/assets{?name,label}",
+      "html_url": "https://github.com/tcdoverlord/RepoPulse/releases/tag/v1.2.1",
+      "id": 440444762,
+      "author": {
+        "login": "tcdoverlord",
+        "id": 202811503,
+        "node_id": "U_kgDODBaobw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/202811503?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tcdoverlord",
+        "html_url": "https://github.com/tcdoverlord",
+        "followers_url": "https://api.github.com/users/tcdoverlord/followers",
+        "following_url": "https://api.github.com/users/tcdoverlord/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tcdoverlord/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tcdoverlord/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tcdoverlord/subscriptions",
+        "organizations_url": "https://api.github.com/users/tcdoverlord/orgs",
+        "repos_url": "https://api.github.com/users/tcdoverlord/repos",
+        "events_url": "https://api.github.com/users/tcdoverlord/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tcdoverlord/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOVpcihs4aQKda",
+      "tag_name": "v1.2.1",
+      "target_commitish": "main",
+      "name": "RepoPulse v1.2.1 - MCP Integration",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2026-11-10T14:06:40Z",
+      "updated_at": "2026-11-10T14:08:45Z",
+      "published_at": "2026-11-10T14:08:45Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/tarball/v1.2.1",
+      "zipball_url": "https://api.github.com/repos/tcdoverlord/RepoPulse/zipball/v1.2.1",
+      "body": "﻿# RepoPulse v1.2.1 — Initial Public Release\n\nThe first public release of RepoPulse brings together a GitHub repository dashboard, REST API, and Model Context Protocol (MCP) server.\n\n## Features\n- Responsive GitHub repository dashboard\n- Repository statistics, languages, contributors, releases, and activity\n- REST API with normalized responses\n- Five-minute in-memory API caching\n- Basic rate limiting and security headers\n- MCP server with six GitHub repository tools\n- MCP Inspector compatibility\n- Developer documentation and setup examples\n\n## Verification\n- Automated tests passing\n- Production TypeScript and Vite build successful\n- MCP tools successfully tested through MCP Inspector\n\n## Getting Started\nSee README.md and the docs directory for installation, API usage, and MCP configuration.\n\nLicense: MIT\r\n"
+    }
+  ],
+  "meta": {
+    "source": "GitHub REST API",
+    "generated_at": "2026-11-10T17:03:07.253Z",
+    "repository": "tcdoverlord/RepoPulse"
+  }
+}

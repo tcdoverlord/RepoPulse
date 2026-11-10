@@ -3,6 +3,8 @@ name: Deploy RepoPulse to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -27,6 +29,8 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install
+      - name: Generate static JSON API
+        run: npm run api:generate
       - name: Run tests
         run: npm test
       - name: Build
